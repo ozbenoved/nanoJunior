@@ -7,9 +7,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class AddContextFragment extends Fragment {
-    public static AddContextFragment newInstance(int index) {
-        AddContextFragment fragment = new AddContextFragment();
+public class Out extends Fragment {
+    public static Out newInstance(int index) {
+        Out fragment = new Out();
 
         // Supply index input as an argument.
         Bundle args = new Bundle();
@@ -23,7 +23,7 @@ public class AddContextFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_add_context, container, false);
+        View rootView = inflater.inflate(R.layout.out, container, false);
 
         return rootView;
     }

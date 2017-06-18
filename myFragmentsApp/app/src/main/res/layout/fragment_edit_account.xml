@@ -7,13 +7,35 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="edit_account_fragment"/>
+        android:text="edit_account_fragment"
+        android:background="#2314"/>
+
+    <TextView
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="click to change to Add_context_fragment"
         android:id="@+id/fragment_edit_account_buttonToAddContext"
-        android:onClick="changeToAddContext"/>
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="click to change to accounts"
+        android:id="@+id/fragment_edit_account_saveButton"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="click OUT"
+        android:id="@+id/fragment_edit_out"
+        />
 
 </LinearLayout>

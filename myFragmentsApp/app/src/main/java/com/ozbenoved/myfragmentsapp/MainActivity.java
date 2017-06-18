@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        Fragment fragment = new SplashFragment();
+        Fragment fragment = SplashFragment.newInstance(0);
 
         getFragmentManager().beginTransaction().add(R.id.container, fragment).commit();   // add the first fragment
 
